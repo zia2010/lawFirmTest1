@@ -73,12 +73,17 @@
           display: block;
         }
       }
+
+      .button-hover {
+        background-color: rgba(256, 256, 256, 0.1) !important;
+        cursor: pointer !important;
+      }
     </style>
   </head>
 
   <body>
     <!-- Header Start -->
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-bottom: 100px">
       <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
         <a href="index.html" class="navbar-brand d-block d-lg-none text-center">
           <img src="img/icon.jpg" alt="icon" class="w-50 h-auto" />
@@ -93,7 +98,9 @@
           />
         </div>
         <div class="col-10 bg-secondary justify-content-center">
-          <div class="w-100 display-4 bg-secondary d-none d-lg-block border-bottom-0">
+          <div
+            class="w-100 display-4 bg-secondary d-none d-lg-block border-bottom-0"
+          >
             <a
               href="index.html"
               class="navbar-brand display-4 w-100 h-100 m-3 p-2 d-flex align-items-center justify-content-center"
@@ -103,11 +110,11 @@
               >
                 Ajayinder Sangwan and Associates
               </h1>
-                <h1
-                    class="m-0 display-4 text-primary text-uppercase w-100 overflow-hidden text-center header-main"
-                >
-                    Ajayinder Sangwan and Associates
-                </h1>
+              <h1
+                class="m-0 display-4 text-primary text-uppercase w-100 overflow-hidden text-center header-main"
+              >
+                Ajayinder Sangwan and Associates
+              </h1>
               <!-- <h1>Hellow World World Hellow World World Hellow World World Hellow World World</h1> -->
             </a>
           </div>
@@ -126,6 +133,7 @@
                   <i class="fa fa-clock text-primary mr-2"></i>
                   <small>10:30AM - 9:300PM(Mon - Sat) </small>
                 </div>
+                <a href="#section-below" class="connect-link">Connect</a>
               </div>
             </div>
           </div>
@@ -203,8 +211,15 @@
     </div> -->
     <!-- Header End -->
 
+    <!-- <div style=" position: absolute; width: 200px;">
+      <img src="img/icon.jpg" alt="icon" style="width: 100%; height: 100%" />
+    </div> -->
+
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5">
+    <div
+      class="container-fluid p-0 mb-5 pb-5"
+      style="z-index: -1; position: relative"
+    >
       <div
         id="header-carousel"
         class="carousel slide carousel-fade"
@@ -288,6 +303,96 @@
         </a>
       </div>
     </div>
+    <!-- Carousel End -->
+    <!-- Carousel Start -->
+    <!-- <div class="container-fluid p-0 mb-5 pb-5" style=" z-index: -1;position: relative;">
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div
+            class="carousel-item position-relative active"
+            style="height: 100vh; min-height: 400px"
+          >
+            <img
+              class="position-absolute w-100 h-100"
+              src="img/carousel-1.jpg"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <img src="img/icon.jpg" alt="icon" style="width: 20%; height: 150px" />
+                <br>
+                <br>
+
+                <h4
+                  class="text-uppercase mb-4"
+                  style="letter-spacing: 3px; color: #b49c73"
+                >
+                  Best Law Agency
+                </h4>
+                <h3 class="display-2 text-capitalize text-white mb-4">
+                  Our fighting Is for your justice
+                </h3>
+                 <a class="btn btn-primary py-3 px-5 mt-2" href="#"
+                  >Call Us Now</a
+                > -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+    <!-- <div
+            class="carousel-item position-relative"
+            style="height: 100vh; min-height: 400px"
+          >
+            <img
+              class="position-absolute w-100 h-100"
+              src="img/carousel-2.jpg"
+              style="object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h4
+                  class="text-white text-uppercase mb-4"
+                  style="letter-spacing: 3px"
+                >
+                  Results You Deserve
+                </h4>
+                <h3 class="display-2 text-capitalize text-white mb-4">
+                  We prepared to oppose for you
+                </h3>
+                <a class="btn btn-primary py-3 px-5 mt-2" href="contact.html"
+                  >Call Us Now</a
+                >
+              </div>
+            </div>
+          </div> -->
+    <!-- </div> -->
+    <!-- <a
+          class="carousel-control-prev"
+          href="#header-carousel"
+          data-slide="prev"
+        > -->
+    <!-- <div class="btn btn-lg btn-secondary btn-lg-square">
+            <span class="carousel-control-prev-icon"></span>
+          </div> -->
+    <!-- </a>
+        <a
+          class="carousel-control-next"
+          href="#header-carousel"
+          data-slide="next" -->
+    >
+    <!-- <div class="btn btn-lg btn-secondary btn-lg-square">
+            <span class="carousel-control-next-icon"></span>
+          </div> 
+        </a>
+      </div>
+    </div> -->
     <!-- Carousel End -->
 
     <!-- About Start -->
@@ -560,20 +665,33 @@
     <!-- Features End -->
 
     <!-- Action Start -->
-    <!-- <div class="container-fluid py-5">
+    <div class="container-fluid py-5">
       <div class="container py-5">
         <div class="bg-action rounded" style="height: 500px">
           <div class="row h-100 align-items-center justify-content-center">
             <div class="col-lg-7 text-center">
               <h1 class="text-white mb-4">
-                Let's get started. Call us now for a Free Consultation
+                Internship Opportunities: Legal Excellence
               </h1>
-              <a class="btn btn-primary py-3 px-5 mt-2" href="#">Call Us Now</a>
+              <p class="text-white">
+                Welcome Interns! Join our esteemed law firm with 22+ years of
+                experience in criminal, civil, business, and family law. Gain
+                practical knowledge, work with our experienced professionals,
+                and make a difference in real cases. Thrive in our supportive
+                environment and contribute to the pursuit of justice. Let's
+                shape the future together!
+              </p>
+              <a
+                class="btn btn-primary py-3 px-5 mt-2"
+                href="https://docs.google.com/forms"
+                target="_blank"
+                >Connect with Us</a
+              >
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- Action End -->
 
     <!-- Team Start -->
@@ -617,17 +735,7 @@
                 <p class="mb-3 px-4">F&M Partner</p>
                 <div class="team-img position-relative">
                   <img class="img-fluid" src="img/team-2.jpg" alt="" />
-                  <div class="team-social">
-                    <a class="btn btn-outline-light btn-square mx-1" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-outline-light btn-square mx-1" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-outline-light btn-square mx-1" href="#"
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </div>
+                 
                 </div>
               </div>
               <div
@@ -637,7 +745,7 @@
                 <p class="mb-3 px-4">Senior Partner</p>
                 <div class="team-img position-relative">
                   <img class="img-fluid" src="img/team-2.jpg" alt="" />
-                  <div class="team-social">
+                  <!-- <div class="team-social">
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-twitter"></i
                     ></a>
@@ -647,7 +755,7 @@
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-linkedin-in"></i
                     ></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div
@@ -657,7 +765,7 @@
                 <p class="mb-3 px-4">Partner</p>
                 <div class="team-img position-relative">
                   <img class="img-fluid" src="img/team-2.jpg" alt="" />
-                  <div class="team-social">
+                  <!-- <div class="team-social">
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-twitter"></i
                     ></a>
@@ -667,7 +775,7 @@
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-linkedin-in"></i
                     ></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div
@@ -677,7 +785,7 @@
                 <p class="mb-3 px-4">Senior Associate</p>
                 <div class="team-img position-relative">
                   <img class="img-fluid" src="img/team-2.jpg" alt="" />
-                  <div class="team-social">
+                  <!-- <div class="team-social">
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-twitter"></i
                     ></a>
@@ -687,7 +795,7 @@
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-linkedin-in"></i
                     ></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div
@@ -697,7 +805,7 @@
                 <p class="mb-3 px-4">Senior Associate</p>
                 <div class="team-img position-relative">
                   <img class="img-fluid" src="img/team-2.jpg" alt="" />
-                  <div class="team-social">
+                  <!-- <div class="team-social">
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-twitter"></i
                     ></a>
@@ -707,7 +815,7 @@
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-linkedin-in"></i
                     ></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div
@@ -717,7 +825,7 @@
                 <p class="mb-3 px-4">Associate</p>
                 <div class="team-img position-relative">
                   <img class="img-fluid" src="img/team-2.jpg" alt="" />
-                  <div class="team-social">
+                  <!-- <div class="team-social">
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-twitter"></i
                     ></a>
@@ -727,7 +835,7 @@
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-linkedin-in"></i
                     ></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div
@@ -737,7 +845,7 @@
                 <p class="mb-3 px-4">Associate</p>
                 <div class="team-img position-relative">
                   <img class="img-fluid" src="img/team-4.jpg" alt="" />
-                  <div class="team-social">
+                  <!-- <div class="team-social">
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-twitter"></i
                     ></a>
@@ -747,7 +855,7 @@
                     <a class="btn btn-outline-light btn-square mx-1" href="#"
                       ><i class="fab fa-linkedin-in"></i
                     ></a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -852,16 +960,20 @@
 
     <!-- Footer Start -->
     <div
+      id="section-below"
       class="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5"
       style="margin-top: 90px"
     >
       <div class="row mt-5">
-        <!-- <div> -->
-        <div class="col-lg-12 ">
-          <div
+        <div class="col-lg-12">
+          <buttton
             class="d-flex justify-content-lg-start p-4 mx-lg-5"
             style="background: rgba(256, 256, 256, 0.05)"
+            onclick="openGoogleMapsChamber()"
+            onmouseover="this.classList.add('button-hover')"
+            onmouseout="this.classList.remove('button-hover')"
           >
+            <!-- style="background: rgba(256, 256, 256, 0.05)" -->
             <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
             <div class="ml-3">
               <h5 class="text-white">Our Chamber</h5>
@@ -870,49 +982,59 @@
                 Delhi- 110003
               </p>
             </div>
-          </div>
+          </buttton>
         </div>
         <div class="col-lg-12">
-          <div
+          <buttton
             class="d-flex justify-content-lg-start p-4 mx-lg-5"
             style="background: rgba(256, 256, 256, 0.05)"
+            onclick="openGoogleMapsOffice()"
+            onmouseover="this.classList.add('button-hover')"
+            onmouseout="this.classList.remove('button-hover')"
           >
+            <!-- style="background: rgba(256, 256, 256, 0.05)" -->
             <i class="fa fa-2x fa-map-marked text-primary"></i>
+
             <div class="ml-3">
               <h5 class="text-white">Our Office</h5>
               <p class="m-0">
                 S-369, LGF, Greater Kailash Part- I, New Delhi-48
               </p>
             </div>
-          </div>
+          </buttton>
         </div>
         <div class="col-lg-12">
-          <div
+          <buttton
             class="d-flex justify-content-lg-start p-4 mx-lg-5"
             style="background: rgba(256, 256, 256, 0.05)"
+            onclick="sendEmail()"
+            onmouseover="this.classList.add('button-hover')"
+            onmouseout="this.classList.remove('button-hover')"
           >
+            <!-- style="background: rgba(256, 256, 256, 0.05)" -->
             <i class="fa fa-2x fa-envelope-open text-primary"></i>
+
             <div class="ml-3">
               <h5 class="text-white">Email Us</h5>
               <p class="m-0 email-address">ajayindersangwan @gmail.com</p>
               <p class="m-0 email-address-lg">ajayindersangwan@gmail.com</p>
-              <!-- <p style="margin: 0; @media (min-width: 381px) {display: none}">
-                ajayindersangwan @gmail.com
-              </p> -->
             </div>
-          </div>
+          </buttton>
         </div>
         <div class="col-lg-12">
-          <div
+          <buttton
             class="d-flex justify-content-lg-start p-4 mx-lg-5"
             style="background: rgba(256, 256, 256, 0.05)"
+            onclick="initiateCall()"
+            onmouseover="this.classList.add('button-hover')"
+            onmouseout="this.classList.remove('button-hover')"
           >
             <i class="fa fa-2x fa-phone-alt text-primary"></i>
             <div class="ml-3">
               <h5 class="text-white">Call Us</h5>
               <p class="w-100 mx-0">011-41572628</p>
             </div>
-          </div>
+          </buttton>
         </div>
       </div>
       <!-- <div class="row pt-5">
@@ -1045,5 +1167,34 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+      document
+        .querySelector(".connect-link")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          document
+            .querySelector("#section-below")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+      function openGoogleMapsChamber() {
+        window.open(
+          "https://www.google.com/maps/place/Ajayinder+Sangwan/@28.6068388,77.2327475,17z/data=!3m1!4b1!4m6!3m5!1s0x390cfd309eebed77:0xba5eec97b4eb8efa!8m2!3d28.6068388!4d77.2349362!16s%2Fg%2F1tgkfnvy?entry=ttu",
+          "_blank"
+        );
+      }
+      function openGoogleMapsOffice() {
+        window.open("https://www.google.com/maps", "_blank");
+      }
+
+      function sendEmail() {
+        window.location.href = "mailto:ajayindersangwan@gmail.com";
+      }
+
+      function initiateCall() {
+        window.location.href = "tel:09811164628";
+      }
+    </script>
   </body>
 </html>
